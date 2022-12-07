@@ -143,12 +143,22 @@ header  {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     float: none;
+     clear:both;
+    overflow:auto;
+    margin:3% 2%;
+    border-top: 1px solid black;
+    font-size:.80rem;
 }
 
+.copyright {
+    font-size:.80rem;
+    text-align:right;
+    color: black;
+}
 
 nav {
     margin-top: 3rem;
@@ -203,6 +213,7 @@ figure {
     float: left;
     margin-right: 0.75rem;
 }
+
 .subsection{
     margin: 1rem 0rem;
 }
