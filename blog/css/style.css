@@ -144,7 +144,11 @@ header  {
 
 footer {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: none;
 }
+
 
 nav {
     margin-top: 3rem;
@@ -242,3 +246,14 @@ nav {
     border-bottom: 1px solid black  ;
 }
 
+button a {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: latto, Arial, sans-serif;
+    color: white
+}
+
+button a:focus, nav a:hover {
+    color: black;
+    background-color: hotpink;
+}
